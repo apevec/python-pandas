@@ -1,4 +1,6 @@
+%if 0%{?fedora}
 %global with_python3 1
+%endif
 %global __provides_exclude_from ^(%{python2_sitearch}|%{python3_sitearch})/.*\\.so$
 
 
